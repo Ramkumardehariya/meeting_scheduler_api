@@ -384,10 +384,10 @@ GET /meetings?userId=1&start=2024-01-15T00:00:00.000Z&end=2024-01-20T23:59:59.00
       "id": 1,
       "userId": 1,
       "title": "Team Standup",
-      "startTime": "2024-01-16T09:00:00.000Z",
-      "endTime": "2024-01-16T09:30:00.000Z",
-      "createdAt": "2024-01-15T10:30:00.000Z",
-      "updatedAt": "2024-01-15T10:30:00.000Z"
+      "startTime": "2026-01-16T09:00:00.000Z",
+      "endTime": "2026-01-16T09:30:00.000Z",
+      "createdAt": "2026-01-15T10:30:00.000Z",
+      "updatedAt": "2026-01-15T10:30:00.000Z"
     }
   ]
 }
@@ -408,10 +408,10 @@ GET /meetings/1
     "id": 1,
     "userId": 1,
     "title": "Team Standup",
-    "startTime": "2024-01-16T09:00:00.000Z",
-    "endTime": "2024-01-16T09:30:00.000Z",
-    "createdAt": "2024-01-15T10:30:00.000Z",
-    "updatedAt": "2024-01-15T10:30:00.000Z"
+    "startTime": "2026-01-16T09:00:00.000Z",
+    "endTime": "2026-01-16T09:30:00.000Z",
+    "createdAt": "2026-01-15T10:30:00.000Z",
+    "updatedAt": "2026-01-15T10:30:00.000Z"
   }
 }
 ```
@@ -424,8 +424,8 @@ Content-Type: application/json
 
 {
   "title": "Updated Team Standup",
-  "startTime": "2024-01-16T10:00:00.000Z",
-  "endTime": "2024-01-16T10:30:00.000Z"
+  "startTime": "2026-01-16T10:00:00.000Z",
+  "endTime": "2026-01-16T10:30:00.000Z"
 }
 ```
 
@@ -438,10 +438,10 @@ Content-Type: application/json
     "id": 1,
     "userId": 1,
     "title": "Updated Team Standup",
-    "startTime": "2024-01-16T10:00:00.000Z",
-    "endTime": "2024-01-16T10:30:00.000Z",
-    "createdAt": "2024-01-15T10:30:00.000Z",
-    "updatedAt": "2024-01-15T11:00:00.000Z"
+    "startTime": "2026-01-16T10:00:00.000Z",
+    "endTime": "2026-01-16T10:30:00.000Z",
+    "createdAt": "2026-01-15T10:30:00.000Z",
+    "updatedAt": "2026-01-15T11:00:00.000Z"
   }
 }
 ```
@@ -456,7 +456,7 @@ DELETE /meetings/1
 ```json
 {
   "success": true,
-  "message": "Deleted"
+  "message": "meeting deleted successfully"
 }
 ```
 
